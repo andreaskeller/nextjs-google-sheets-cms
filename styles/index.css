@@ -16,3 +16,15 @@
 /* Stop purging. */
 
 /* Your own custom utilities */
+
+.markdown a {
+  @apply text-blue-600;
+}
+
+.markdown a:hover {
+  @apply text-blue-400 underline;
+}
+
+.inline-p p {
+  display: inline;
+}
