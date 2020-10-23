@@ -1,8 +1,14 @@
 import Link from "next/link";
 
 const links = [
-  { href: "https://github.com/vercel/next.js", label: "GitHub" },
-  { href: "https://nextjs.org/docs", label: "Docs" },
+  {
+    href: "https://github.com/andreaskeller/nextjs-google-sheets-cms.git",
+    label: "GitHub",
+  },
+  {
+    href: "https://andreaskeller.name/blog/nextjs-google-sheets-cms",
+    label: "Docs",
+  },
 ];
 
 export default function Nav() {
